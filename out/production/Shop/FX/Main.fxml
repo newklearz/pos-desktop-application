@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane fx:id="tabPane" prefHeight="700.0" prefWidth="1130.0" rotateGraphic="true" side="LEFT" stylesheets="@../CSS/MainForm.css" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx" fx:controller="Controllers.MainController">
+  <tabs>
+    <Tab fx:id="tabShop" id="mainTab" text="POS" >
+    </Tab>
+    <Tab fx:id="tabBank" id="mainTab" text="Banca">
+    </Tab>
+    <Tab fx:id="tabDashboard" id="mainTab" text="Tranzacții">
+    </Tab>
+    <Tab fx:id="tabExit" id="mainTab" text="Iesire">
+    </Tab>
+  </tabs>
+</TabPane>
